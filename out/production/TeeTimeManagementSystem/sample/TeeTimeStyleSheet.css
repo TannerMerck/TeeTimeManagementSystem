@@ -1,0 +1,63 @@
+.root{
+    -fx-background-color: #DCC7AA /*#383838*/;
+    -fx-font-size: 11pt;
+}
+.text-field{
+    -fx-max-width: 200px;
+}
+.button{
+    -fx-min-width: 150px;
+    -fx-alignment: center;
+    -fx-background-color: #6B7A8F /*#F7882F /*#03DAC5*/;
+}
+.label-login{
+    -fx-text-fill: black /*#FFFFFF*/;
+}
+.date-Display{
+    -fx-alignment: center;
+}
+.table-view .column-header,
+.table-view .column-header-background .filler {
+    -fx-background-color:  #B5CBEC /*#03DAC5*/;
+}
+.table-view .column-header .label{
+   -fx-text-fill: black;
+   -fx-alignment: CENTER;
+}
+.table-view .cell{
+   -fx-cell-size: 50;
+  -fx-alignment: center-left;
+  -fx-background-color: #6B7A8F /*#29292D*/;
+  /*-fx-border-width: 2px;
+  /*-fx-border-color: #FFFFFF;*/
+  -fx-text-fill: lightgray;
+  -fx-alignment: CENTER_LEFT;
+}
+.table-view .cell:odd{
+   -fx-cell-size: 50;
+  -fx-alignment: center-left;
+  -fx-background-color: #545F6F /*#383838*/;
+  /*-fx-border-color: #FFFFFF;*/
+  -fx-text-fill: lightgray;
+  -fx-alignment: CENTER_LEFT;
+}
+.table-row-cell:selected .cell{
+   -fx-background-color: lightgray;
+   -fx-text-fill:  black;
+}
+.checkedIn{
+    -fx-background-color: green;
+}
+.check-box .box{
+    -fx-opacity: 0.0;
+}
+.check-box:selected .box{
+    -fx-opacity: 1.0;
+}
+.playerCol .cell{
+    -fx-border-width: 0px;
+    -fx-table-cell-border-color: transparent;
+}
+.visibleBox .box{
+    -fx-opacity: 1.0;
+}
